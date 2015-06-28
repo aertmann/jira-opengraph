@@ -1,0 +1,7 @@
+#if ($id)
+    <meta property="og:title" content="[$id] $summary" />
+    <meta property="og:image" content="$baseurl/secure/projectavatar?pid=$pid&avatarId=$avatar" />
+#end
+#if ($description)
+    <meta property="og:description" content="$description" />
+#end
